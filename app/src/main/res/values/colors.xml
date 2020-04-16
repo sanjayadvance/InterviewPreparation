@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#032864</color>
+    <color name="colorPrimaryDark">#040B49</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="light_blue">#94A1FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="navigationBar">#010831</color>
+
+
+    <color name="intro1">#2F3FBE</color>
+    <color name="intro2">#753030</color>
+    <color name="intro3">#353955</color>
+
+    <color name="button_selector1">#3F4DCC</color>
+    <color name="button_selector2">#14368B</color>
+    <color name="button_selector3">#A8AFE0</color>
+
+    <color name="startcolor">#14368B</color>
+    <color name="endcolor">#B1B7E6</color>
+    <color name="angle">#D81B60</color>
+
+    <color name="textcolor">#FFFFFF</color>
+
+    <color name="shadow">#23FFFFFF</color>
+    <color name="blue">#C4082A94</color>
+
+    <color name="contact_name">#333333</color>
+    <color name="contact_number">#8c8c8c</color>
+
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+
+
+
+    <color name="grey_40">#999999</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="overlay_light_30">#4DFFFFFF</color>
+    <color name="grey_20">#cccccc</color>
+
+    <color name="overlay_dark_50">#80000000</color>
+
+    <color name="lightgreen">#44d637</color>
+    <color name="darkgreen">#3bc62f</color>
+
+</resources>

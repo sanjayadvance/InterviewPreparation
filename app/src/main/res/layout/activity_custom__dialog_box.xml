@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.interview.mainactivity.Raw_Function.Custom_DialogBox">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/instagram_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/instagram_color_logo"
+            android:layout_gravity="center"
+           />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Instagram"
+            android:gravity="center"
+
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+
+            android:textStyle="bold"
+            android:text="Please Follow Us on Instagram"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="Click on it:"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="www.instagram.com/sanjaywell"
+                android:layout_gravity="center"
+
+                android:autoLink="all"
+                android:textColorLink="@color/colorPrimary"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/okbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+
+            android:textColor="@color/white"
+
+
+            android:textStyle="bold"
+            android:background="@color/colorPrimaryDark"
+            android:text="Ok"/>
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

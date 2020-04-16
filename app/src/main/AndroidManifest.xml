@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.interview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/jobicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".mainactivity.Feedback.Feedback_Activity"></activity>
+        <activity android:name=".mainactivity.DetailsActivity.DetailActivity" />
+        <activity android:name=".mainactivity.Sub_Category_2.Sub_Category2_MainActivity" />
+        <activity android:name=".mainactivity.Child_Category.ChildCategoryMain_Activity" />
+        <activity android:name=".mainactivity.Sub_Category.Sub_Category_Activity" />
+        <activity android:name=".mainactivity.Raw_Function.Intro" />
+        <activity android:name=".mainactivity.Raw_Function.Feedback_by_email" />
+        <activity android:name=".mainactivity.Raw_Function.Custom_DialogBox" />
+        <activity android:name=".mainactivity.Raw_Function.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mainactivity.Main_Category_and_API_Client.MainActivity"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service android:name=".mainactivity.Firebase_Push_Notification.GettingDeviceTokenService1">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".mainactivity.Firebase_Push_Notification.MyFirebaseMessagingService1">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4440065152169980~5661264257"/>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "124273533163",
+    "firebase_url": "https://interview-preparation-a9df0.firebaseio.com",
+    "project_id": "interview-preparation-a9df0",
+    "storage_bucket": "interview-preparation-a9df0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124273533163:android:3c4d9b1884a7f71b9e9eae",
+        "android_client_info": {
+          "package_name": "com.example.bharatgas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124273533163-gh2elijc7i6nncmbqfre5bv6rdqvaq36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bharatgas",
+            "certificate_hash": "9cb3bda56e16a436e99d0a36d58f9ceae938eaba"
+          }
+        },
+        {
+          "client_id": "124273533163-698v3tvblh6usv9lnpls8i3oio366rj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyx-SVUk3jIqV2s4ySXVO-eSedHjGMSIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124273533163-698v3tvblh6usv9lnpls8i3oio366rj0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
